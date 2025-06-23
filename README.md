@@ -62,6 +62,16 @@ These 3 projects were built independently during the internship period with an a
 
 > 🔐 Projects are licensed for learning and internship purposes only.
 
+## Tags
+
+html • css • javascript • todo-app • portfolio-website • study-app • localstorage • tailwindcss • bootstrap • internship-project
+
+## 🔧 Future Improvements
+- Add AI-powered features using APIs
+- Integrate a backend with Firebase or Node.js
+
+
+
 
 ## 🚀 How to View the Projects
 

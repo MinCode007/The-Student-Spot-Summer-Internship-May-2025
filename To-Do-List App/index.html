@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart To-Do List App</title>
+  <link rel="stylesheet" href="style.css" />
+<link rel="manifest" href="manifest.json" />
+
+
+</head>
+
+<body>
+  <header>
+    <h1>📅 Smart To-Do Planner</h1>
+    <p id="quote">Quote of the day will appear here...</p>
+  </header>
+
+  <section class="input-group">
+    <input type="text" id="taskInput" placeholder="Enter your task..." />
+    <select id="taskCategory">
+      <option value="daily">Daily</option>
+      <option value="weekly">Weekly</option>
+      <option value="monthly">Monthly</option>
+    </select>
+    <button onclick="addTask()">➕ Add Task</button>
+  </section>
+
+  <section class="task-lists">
+    <div>
+      <h2>📆 Daily Tasks</h2>
+      <ul id="dailyList" class="task-list"></ul>
+    </div>
+    <div>
+      <h2>📅 Weekly Tasks</h2>
+      <ul id="weeklyList" class="task-list"></ul>
+    </div>
+    <div>
+      <h2>🗓️ Monthly Tasks</h2>
+      <ul id="monthlyList" class="task-list"></ul>
+    </div>
+  </section>
+
+  <section class="calendar-section">
+    <h2>🗓️ Calendar</h2>
+    <input type="date" id="calendarInput" />
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Smart To-Do Planner by Tejahussain</p>
+  </footer>
+
+  <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+
+  <script src="script.js"></script>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then(() => console.log("✅ Service Worker Registered"))
+      .catch(error => console.error("❌ Service Worker Registration Failed:", error));
+  }
+</script>
+
+</body>
+
+</html>

